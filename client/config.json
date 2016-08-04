@@ -1,0 +1,35 @@
+{
+    "local": {
+        "config": {
+            "name": "Local Dev",
+            "apiBaseUrl": "http://localhost/api/"
+        }
+    },
+
+    "dev": {
+        "config": {
+            "name": "Integration",
+            "apiBaseUrl": "http://dev-server/api/"
+        }
+    },
+
+    "qa": {
+        "config": {
+            "name": "QA",
+            "apiBaseUrl": "http://qa-server/api/"
+        }
+    },
+
+    "uat": {
+        "config": {
+            "name": "UAT",
+            "apiBaseUrl": "http://uat-server/api/"
+        }
+    },
+
+    "prod": {
+        "config": {
+            "apiBaseUrl": "http://prod-server/api/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "experimentalDecorators": true
+    },
+    "files": [
+        "typings/index.d.ts",
+        "typings/app.d.ts"
+    ]
+}
