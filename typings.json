@@ -7,6 +7,8 @@
     "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160707113237",
     "bootstrap": "registry:dt/bootstrap#3.3.5+20160619023404",
     "jquery": "registry:dt/jquery#1.10.0+20160704162008",
-    "lodash": "registry:dt/lodash#4.14.0+20160802150749"
+    "lodash": "registry:dt/lodash#4.14.0+20160802150749",
+    "ng1-template-core": "bower:ng1-template-core/dist/core.d.ts",
+    "ng1-ui-abstracts": "bower:ng1-ui-abstracts/dist/core.d.ts"
   }
 }
