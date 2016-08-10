@@ -6,3 +6,7 @@
     <input type="text" ng-model="home.fname"/>
     <button ng-click="home.showCustomers()">Show Customers</button>
 </div>
+<form name="homeForm" ng1-validation-ui>
+    <input type="text" name="firstName" ng-model="home.firstName" required minlength="5"/>
+    <pre>{{ homeForm.firstName | json }}</pre>
+</form>

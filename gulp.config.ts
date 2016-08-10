@@ -20,6 +20,8 @@ module.exports = function(config: IConfig) {
     config.modules.push(utils.createModule('security'));
     config.modules.push(utils.createModule('demo'));
 
+    config.coreDependencies.push('ng1-ui-abstracts');
+
     // Add your project-specific configurations by adding to or modifying the config object.
     config.styles.usesLess = true;
     config.styles.injections.unshift(

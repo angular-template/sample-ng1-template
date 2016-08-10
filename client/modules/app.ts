@@ -16,7 +16,9 @@ namespace app {
         'ngAria',
 
         /* Angular-UI modules */
-        'ui.router'
+        'ui.router',
+
+        'ng1-ui-abstracts'
     ]);
 
     appModule.component('app', {
