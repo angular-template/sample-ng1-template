@@ -28,7 +28,7 @@
     "ng1-template-gulp": "^1.0.19"
   },
   "dependencies": {
-    "compression": "^1.6.0",
+    "compression": "^1.7.0",
     "express": "^4.13.3"
   }
 }
